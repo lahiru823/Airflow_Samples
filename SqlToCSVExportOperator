@@ -1,0 +1,7 @@
+t3 = NovigiSqlToCSVExportOperator(
+    conn_id="cfy_mssql_edw'",
+    sql_query='SELECT * FROM staging.PRPeriod',
+    data_file='/opt/data/output/PRPeriod.csv'
+)
+
+ 
